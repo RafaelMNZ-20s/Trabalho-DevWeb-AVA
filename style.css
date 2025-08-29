@@ -1,0 +1,74 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 15px 20px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    /* Faz o display nao ficar fixo na pagina, acompanha o scroll  */
+    
+    nav {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+    }
+
+    /* adiciona sombra e bordas arredondadas quando acionado o comando hover (quando cursor esta em cima do link) no campo de navegação */
+
+    nav a:hover {
+      background-color: #555;
+      border-radius: 4px;
+    }
+
+    main {
+      padding: 100px 20px 40px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    /* CLasse utilizada para manipular foto na pagina home, centraliza a foto, redimensiona e deixa com bordar arredondadas */
+
+    .profilepic {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+    
+    /* Classe que centraliza informações previas de nome e formações na pagina home */
+
+    .contentHome {
+
+        align-items: center;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+
